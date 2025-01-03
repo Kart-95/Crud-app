@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+*{
+    font-family: "Inter", sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+h1{
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 10px;
+    border-bottom: 1px dashed #ccc;
+    color: black;
+}
+
+.btn{
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 5px 8px;
+}
+
+.green{
+    background-color: green;
+}
+
+.btn.green:hover{
+    background-color: rgb(5, 82, 5);
+}
+
+.btn:hover{
+    background-color: rgb(148, 6, 6);
+}
+
+.input-search input{
+    width: 300px;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+.input-search{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.table{
+    width:100%;
+    border-collapse: collapse;
+    cursor: pointer; 
+}
+
+.table th,
+.table td{
+    border:1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+.table th{
+    background-color: #f2f2f2;
+}
+
+.table tr:hover{
+    background-color: #ddd;
+}
+
+.model{
+    display: block;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.37);
+    overflow: auto;
+}
+
+.modelContent{
+    background-color: #ffffff;
+    margin: 10% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 50%;
+}
+
+.close{
+    color: #888;
+    float: right;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus{
+    color: black;
+    cursor: pointer;
+}
+
+.model h2{
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.input-group{
+    margin-bottom: 10px;
+}
+
+.input-group label{
+    display: block;
+    margin-bottom: 5px;
+}
+
+.input-group input{
+    width: 50%;
+    padding: 8px;
+    border-radius: 10px;
+    border: 1px solid #868686;
+    outline: none;
+}
